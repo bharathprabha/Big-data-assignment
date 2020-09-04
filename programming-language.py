@@ -6,7 +6,6 @@ from collections import Counter
 
 with open("./data/survey_results_public.csv") as f:
     csv_reader = csv.DictReader(f)
-    total = 0
 
     language_counter = Counter()
 
