@@ -26,9 +26,9 @@ for language, value in language_counter.most_common(10):
 y_pos = np.arange(len(graph_language))
 plt.bar(y_pos, graph_language_count, color=(0.8, 0.5, 0.3, 0.8))
 
-plt.title('Programming language survey 2020')
-plt.xlabel('Programming language')
-plt.ylabel('percentage')
+plt.title('Platform survey 2020')
+plt.xlabel('Platform')
+plt.ylabel('developers')
 
 plt.ylim(0, 60000)
 plt.xticks(y_pos, graph_language)

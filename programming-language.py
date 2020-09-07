@@ -28,7 +28,7 @@ plt.bar(y_pos, graph_language_count, color=(0.8, 0.5, 0.3, 0.8))
 
 plt.title('Programming language survey 2020')
 plt.xlabel('Programming language')
-plt.ylabel('percentage')
+plt.ylabel('developers')
 
 plt.ylim(0, 60000)
 plt.xticks(y_pos, graph_language)
