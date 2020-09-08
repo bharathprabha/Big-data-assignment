@@ -14,7 +14,7 @@ with open("./data/survey_results_public.csv") as f:
         webframeworks = line['WebframeWorkedWith'].split(';')
 
         webframework_counter.update(webframeworks)
-
+print(webframework_counter)
 
 graph_webframework = []
 graph_webframework_count = []
